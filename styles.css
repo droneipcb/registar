@@ -1,0 +1,53 @@
+body {
+font-family:Arial, Helvetica, sans-serif;
+font-size:16px;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-color: rgb(101, 123, 151);
+color: white;
+}
+
+h1 {
+font-family:Lucida, Helvetica, sans-serif;
+font-size:36px;
+color: white;
+margin-top: 20px;	
+}
+
+
+.entrada {
+    position: absolute;
+    margin-left: 80px;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    color: white;
+}
+
+#div_botao {   
+    text-align: center;
+}
+
+div.message {
+    background-color: lightcyan;
+    border-radius: 3px;
+    border-style:single;
+    box-shadow: 2px 2px 2px black;
+    padding: 10px;
+    position:relative; 
+    margin:auto; 
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+}
+
+input.campo {
+    width: 300px%;
+}
